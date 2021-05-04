@@ -1,0 +1,229 @@
+/* @media (max-width: 1440px) {} */
+/* @media (max-width: 1366px) {} */
+/* @media (max-width: 1320px) {} */
+/* @media (max-width: 1290px) {} */
+@media (max-width: 1140px) {
+    .nav__inp{
+        padding: 19px 60px 19px 30px;
+        margin-left: 35px;
+    }
+    .heade__panel-img{
+        width: 100%;
+    }
+    .Pages{
+        margin: 130px 115px;
+    }
+    .contact__inp {
+        font-size: 11px;
+    }
+    .header__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__focus{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .header__txt{
+        text-align: center;
+    }
+
+}
+@media (max-width: 1024px) {
+    .nav{
+        padding: 30px 30px;
+    }
+    .wave{
+        top: -150px;
+    }
+    .nav__inp{
+        padding: 19px 30px 19px 20px;
+        margin-left: 25px;
+        font-size: 12px;
+    }
+    .nav__btn{
+        font-size: 12px;
+    }
+    .header__title{
+        font-size: 50px;
+    }
+    .pages__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pages__title{
+        text-align: center;
+        font-size: 25px;
+    }
+    .pages__link{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .pages__item:nth-of-type(5){
+        margin-bottom: 55px;
+    }
+
+    .point__img{
+        width: 100%;
+    }
+
+    .location{
+        margin-top: 65px;
+    }
+    .footer__karta{
+        width: 100%;
+        height: 300px;
+    }
+ 
+}
+@media (max-width: 992px) {
+    .nav__2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav{
+        padding: 30px 60px;
+    }
+    .header__title{
+        font-size: 45px;
+    }
+    .header__btn{
+        font-size: 16px;
+        padding: 10px 50px;
+    }
+    .price__card-btn{
+        padding: 18px 55px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .nav__2{
+        display: none;
+    }
+    .menu{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .line{
+        width: 70%;
+        height: 2px;
+        background: #fff;
+        position: relative;
+    }
+    .line::before{
+        content: '';
+        position: absolute;
+        top: -10px;
+        right: 0;
+        width: 50px;
+        height: 100%;
+        background: #fff;
+    }
+    .line::after{
+        content: '';
+        position: absolute;
+        top: 10px;
+        width: 50%;
+        height: 100%;
+        right: 0;
+        background: #fff;
+    }
+    
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Partners__grid{
+        align-items: center;
+    }
+    .price__cards{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .heade__panel-img{
+        width: 100%;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .dropbox__txt{
+        max-width: 320px;
+        width: 100%;
+    }
+    .contact__bootom{
+        flex-direction: column-reverse;
+    }
+}
+/* @media (max-width: 736px) {} */
+/* @media (max-width: 734px) {} */
+@media (max-width: 684px) {
+    .nav{
+        padding: 15px;
+    }
+    .header__title{
+        font-size: 38px;
+    }
+    .newslleter__span{
+        font-size: 38px;
+    }
+    .Pages{
+        margin: 100px 10px;
+    }
+    .contact__inp{
+        padding: 12px 150px 12px 13px;
+    }
+    .contact__sign{
+        padding: 50px 20px 26px 20px;
+    }
+    .point{
+        min-height: 900px;
+    }
+    .content{
+        padding: 50px 0;
+    }
+}
+/* @media (max-width: 667px) {} */
+/* @media (max-width: 576px) {} */
+@media (max-width: 414px) {
+    .header__title{
+        font-size: 25px;
+    }
+    .span{
+        font-size: 35px;
+    }
+    .point__title{
+        font-size: 35px;
+    }
+    .pages__link{
+        font-size: 13px;
+    }
+    .pages__txt{
+        font-size: 18px;
+    }
+   
+}
+/* @media (max-width: 412px) {} */
+/* @media (max-width: 375px) {} */
+@media (max-width: 360px) {
+    .header__title{
+        font-size: 20px;
+    }
+    .point__btn{
+        padding: 10px 50px;
+        font-size: 18px;
+    }
+    .Partners__btn{
+        padding: 10px 50px;
+        font-size: 18px;
+    }
+    .pages__txt{
+        font-size: 12px;
+    }
+}
+/* @media (max-width: 320px) {} */

@@ -78,6 +78,9 @@ ul{
 .heade__panel-img{
   z-index: 1;
 }
+.header__content{
+  z-index: 1;
+}
 .header__title{
     font-family: "Roboto";
     font-weight: 900;
@@ -478,7 +481,7 @@ ul{
 }
 
 .dropbox__title{
-  color: var(--secondText);
+  color: #252B42;
   font-size: 46px;
   line-height: 57px;
   letter-spacing: 0.2px;
@@ -487,7 +490,7 @@ ul{
 .dropbox__txt{
   max-width: 683px;
   width: 100%;
-  color: var(--thirdText);
+  color: #374754;
   line-height: 20px;
   letter-spacing: 0.2px;
   text-align: center;
@@ -507,8 +510,8 @@ ul{
 
 
 .dropbox__btn{
-  background: var(--secondary);
-  color: var(--text);
+  background: #38A3F1;
+  color: #fff;
   padding: 16px 47px;
   border-radius: 35px;
   margin-bottom: 100px;
@@ -604,7 +607,7 @@ ul{
 }
 .price__card:hover .price__card-btn{
    background: #fff;
-   color: var(--primary);
+   color: #EF2779;
 }
 
 
@@ -643,8 +646,8 @@ ul{
 
 
 .price__card-btn{
-  background: var(--secondary);
-  color: var(--text);
+  background: #38A3F1;
+  color: #fff;
   padding: 18px 88px;
   border-radius: 35px;
 }
@@ -776,6 +779,11 @@ ul{
   }
   
   .phone{
+    display: flex;
+    align-items: center;
+    margin: 30px 0 30px;
+  }
+  .email{
     display: flex;
     align-items: center;
     margin: 30px 0 30px;
