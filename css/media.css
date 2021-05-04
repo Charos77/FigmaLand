@@ -3,9 +3,39 @@
 /* @media (max-width: 1320px) {} */
 /* @media (max-width: 1290px) {} */
 @media (max-width: 1140px) {
-    .nav__inp{
-        padding: 19px 60px 19px 30px;
-        margin-left: 35px;
+    .nav__2{
+        display: none;
+    }
+    .menu{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .line{
+        width: 70%;
+        height: 2px;
+        background: #fff;
+        position: relative;
+    }
+    .line::before{
+        content: '';
+        position: absolute;
+        top: -10px;
+        right: 0;
+        width: 50px;
+        height: 100%;
+        background: #fff;
+    }
+    .line::after{
+        content: '';
+        position: absolute;
+        top: 10px;
+        width: 50%;
+        height: 100%;
+        right: 0;
+        background: #fff;
     }
     .heade__panel-img{
         width: 100%;
@@ -28,6 +58,7 @@
     .header__txt{
         text-align: center;
     }
+
 
 }
 @media (max-width: 1024px) {
@@ -80,13 +111,6 @@
  
 }
 @media (max-width: 992px) {
-    .nav__2{
-        flex-direction: column;
-        align-items: center;
-    }
-    .nav{
-        padding: 30px 60px;
-    }
     .header__title{
         font-size: 45px;
     }
@@ -100,40 +124,7 @@
     
 }
 @media (max-width: 768px) {
-    .nav__2{
-        display: none;
-    }
-    .menu{
-        width: 50px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-    }
 
-    .line{
-        width: 70%;
-        height: 2px;
-        background: #fff;
-        position: relative;
-    }
-    .line::before{
-        content: '';
-        position: absolute;
-        top: -10px;
-        right: 0;
-        width: 50px;
-        height: 100%;
-        background: #fff;
-    }
-    .line::after{
-        content: '';
-        position: absolute;
-        top: 10px;
-        width: 50%;
-        height: 100%;
-        right: 0;
-        background: #fff;
-    }
     
     .grid{
         grid-template-columns: repeat(1,1fr);
@@ -189,7 +180,11 @@
     }
 }
 /* @media (max-width: 667px) {} */
-/* @media (max-width: 576px) {} */
+@media (max-width: 576px) {
+    .header__title{
+        font-size: 25px;
+    }
+}
 @media (max-width: 414px) {
     .header__title{
         font-size: 25px;
