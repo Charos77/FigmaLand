@@ -1,7 +1,23 @@
 /* @media (max-width: 1440px) {} */
 /* @media (max-width: 1366px) {} */
 /* @media (max-width: 1320px) {} */
-/* @media (max-width: 1290px) {} */
+@media (max-width: 1290px) {
+    .header__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__focus{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .header__txt{
+        text-align: center;
+    }
+    .nav__inp {
+        padding: 19px 45px 19px 30px;
+    }
+}
 @media (max-width: 1140px) {
     .nav__2{
         display: none;
@@ -46,18 +62,7 @@
     .contact__inp {
         font-size: 11px;
     }
-    .header__content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .header__focus{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .header__txt{
-        text-align: center;
-    }
+   
 
 
 }
